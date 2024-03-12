@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
-        git remote set-url origin https://$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@github.com/$reactApp
+        git remote set-url origin https://$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@github.com/$reactApp
         npm run deploy
       env:
         user_name: 'github-actions[bot]'
